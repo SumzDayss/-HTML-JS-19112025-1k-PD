@@ -5,3 +5,10 @@ const mainOutput = document.getElementById("output")
 
 mainButton.addEventListener("click",KMIK)
 
+function KMIK(){
+    personWeight = humanWeight.value
+    personHeight = humanHeight.value * 2 * 0.01
+    BMI = personWeight / personHeight
+    console.log(BMI)
+
+}
